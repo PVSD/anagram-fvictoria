@@ -8,12 +8,9 @@ public class Main {
         String S1 = kbInput.nextLine();
         System.out.println("Enter second word");
         String S2 = kbInput.nextLine();
-        int Length = S1.length();
-        int Length2 = S2.length();
-        if (Length = Length2 {
-            System.out.println(" ");
-        }
         
+
+
 
     }
 }
