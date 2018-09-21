@@ -8,12 +8,22 @@ public class Main {
         String S1 = kbInput.nextLine();
         System.out.println("Enter second word");
         String S2 = kbInput.nextLine();
-        if (S1.length() != S2.length()) {
-            System.out.println("These words are not anagrams");
+        char[] word1 = S1.toCharArray();
+        char[] word2= S2.toCharArray();
+
+
+            Arrays.sort(word1);
+            Arrays.sort(word2);
+
+
+        if(Arrays.equals(word1,word2)) {
+            System.out.println("These words are anagrams");
         }
         else
         {
-            
+            System.out.println("These words are not anagrams");
+
         }
 
     }
+}
