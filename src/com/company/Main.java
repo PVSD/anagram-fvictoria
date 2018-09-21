@@ -8,8 +8,8 @@ public class Main {
         String S1 = kbInput.nextLine();
         System.out.println("Enter second word");
         String S2 = kbInput.nextLine();
-        char[] word1 = S1.toCharArray();
-        char[] word2= S2.toCharArray();
+        char[] word1 = S1.toLowerCase() .toCharArray();
+        char[] word2= S2.toLowerCase() .toCharArray();
 
 
             Arrays.sort(word1);
